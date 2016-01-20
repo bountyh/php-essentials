@@ -22,7 +22,7 @@ RUN cd /usr/local/bin && \
   chmod +x composer phpunit phpcpd phpdcd phploc
 
 RUN /usr/local/bin/composer global require \
-	'squizlabs/php_codesniffer=1.5.*' \
+	'drupal/coder' \
 	'pdepend/pdepend=1.1.*' \
 	'phpmd/phpmd=1.4.*' \
 	'behat/behat=2.4.*@stable'
